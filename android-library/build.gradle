@@ -10,7 +10,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -52,7 +52,7 @@ afterEvaluate {
 
                 groupId = 'com.github.altafmansuri-vs'
                 artifactId = 'network-library-compose'
-                version = '1.0'
+                version = '1.0.1'
             }
         }
     }
