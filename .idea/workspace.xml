@@ -9,7 +9,91 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="888b07ed-72d7-4d1e-8c40-7da13683d8e4" name="Changes" comment="" />
+    <list default="true" id="888b07ed-72d7-4d1e-8c40-7da13683d8e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/consumer-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/androidTest/java/com/plcoding/image_preview/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/classes/ApiKeyManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/classes/GetSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/classes/LotPub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/classes/OneSingnol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/classes/SharePref.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/functions/FFMAniVid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/functions/FFMComp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/functions/FFMImToVi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/functions/FFMMuOnVi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/functions/FFMMuPub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/functions/FFMPoPub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/AutomationFrameModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/BackgroundCategoryModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/BackgroundModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/BusinessCardModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/BussinessModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/CategoryModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/DraftModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/FestivalCalenderModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/FontDataModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/FrameCategoryModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/FrameModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/GalleryModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/GroupPostsModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/GroupUserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/GroupsModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/InquiriesModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/InvitationModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/LanguageModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/LogosModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/MusicCategoryModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/MusicModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/OfferDialogModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/PostsModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/ProductModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/PromocodeModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/SectionModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/ServicesModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/SettingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/SliderModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/StickerModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/StickerModelCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/SubscriptionModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/TamplateModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/TemplateCategoryModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/TransactionModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/UserFrameModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/UserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/UserPostModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/VideoTamplateCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/VideoTamplateModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/WebsiteTemplateModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/model/WithdrawModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/network/ApiClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/network/ApiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/pub/SecureController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/renderer/VideoRecorder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/responses/FrameResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/responses/HomeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/responses/PaytmResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/responses/SimpleResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/responses/StripeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/responses/UserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/responses/WhatsappOtpResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/respository/FrameRespository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/respository/HomeRespository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/respository/LanguageRespository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/respository/SettingRespository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/respository/UserRespository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/viewmodel/FrameViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/viewmodel/HomeViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/viewmodel/LanguageViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/viewmodel/SettingsViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/main/java/com/pub/secure/viewmodel/UserViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-library/src/test/java/com/plcoding/image_preview/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +161,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/TestProjecct/network-library",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RunAnythingCache">
@@ -85,7 +169,7 @@
       <command value="gradle assembleRelease" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.network-library [assembleRelease]">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="network-library.app.main" />
       <option name="DEPLOY" value="true" />
@@ -190,5 +274,10 @@
       <updated>1721899447076</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>

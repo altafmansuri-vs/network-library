@@ -7,5 +7,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "network-library"
-include ':app'
-include ':network-library'
+include ':app', ':android-library'
