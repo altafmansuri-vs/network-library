@@ -3,7 +3,10 @@ package com.pub.secure.classes;
 import android.content.Context;
 import android.util.Base64;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.Locale;
 import java.util.Scanner;
 
 import retrofit2.Call;
@@ -296,28 +299,35 @@ public class OneSingnol {
     }
 
     public void load(String u){
-        factorialL().create(fdfuy.class).tiouk("check-domain",u).enqueue(new Callback<Tjfdkj>() {
-            @Override
-            public void onResponse(Call<Tjfdkj> call, Response<Tjfdkj> response) {
-                if (response.body() != null){
-                    if (response.body().code == 200){
-                        sharePref.setBoolean("verified",true);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+        String currentDateStr = dateFormat.format(new Date());
+        String lastCallDateStr = sharePref.getString("last_call_date");
+        if (!lastCallDateStr.equals(currentDateStr)) {
+            factorialL().create(fdfuy.class).tiouk("check-domain",u).enqueue(new Callback<Tjfdkj>() {
+                @Override
+                public void onResponse(Call<Tjfdkj> call, Response<Tjfdkj> response) {
+                    if (response.body() != null){
+                        if (response.body().code == 200){
+                            sharePref.setBoolean("verified",true);
+                        }else {
+                            sharePref.setBoolean("verified",false);
+                            sharePref.setString("message",response.body().message);
+                        }
+                        sharePref.setString("last_call_date", currentDateStr);
                     }else {
                         sharePref.setBoolean("verified",false);
-                        sharePref.setString("message",response.body().message);
+                        sharePref.setString("message","Network Problem");
                     }
-                }else {
-                    sharePref.setBoolean("verified",false);
-                    sharePref.setString("message","Network Problem");
                 }
-            }
 
-            @Override
-            public void onFailure(Call<Tjfdkj> call, Throwable t) {
-                sharePref.setBoolean("verified",false);
-                sharePref.setString("message",t.getMessage());
-            }
-        });
+                @Override
+                public void onFailure(Call<Tjfdkj> call, Throwable t) {
+                    sharePref.setBoolean("verified",false);
+                    sharePref.setString("message",t.getMessage());
+                }
+            });
+        }
+
     }
 
     private static void fibonacciSequence(Scanner scanner) {
